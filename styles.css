@@ -1,0 +1,16 @@
+#wrapper
+{
+    display: none !important;
+}
+section header h2 div.content 
+{
+    display: none !important;
+}
+a:after 
+{
+    content: " (" attr(href) ") ";
+}
+a:before 
+{
+    content: " (" attr(href) ") ";
+}
